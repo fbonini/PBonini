@@ -2,12 +2,27 @@
     padding: 20px;
     color: aliceblue;
 }
+/*estilo div acerca-de*/
 div {
     padding: 20px;
     background-color: #2e2f35;
     text-align: center;
 }
-#nombre {
+#mi {
     font-weight: bold;
-    margin-top: 10%;
-    }
+}
+/*estilo foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: relative;
+        width: 40%;
+        border-radius: 100%;
+    }    
+}
+@media (max-width: 576px){
+    #fotodeperfil{
+        position: relative;
+        width: 40%;
+        border-radius: 100%;
+    }    
+}
