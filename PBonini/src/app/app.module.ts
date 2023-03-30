@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
-import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
     HeaderComponent,
     LogoAPComponent,
     SocialmediaComponent,
-    BannerComponent,
     AcercaDeComponent
   ],
   imports: [
